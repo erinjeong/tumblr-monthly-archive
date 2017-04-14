@@ -12,7 +12,7 @@ jQuery(function($) {
         var ym, ym_str;
         ym = $(this).find('a').attr('href');
         ym_str = ym.replace(/\/archive\//, '');
-                return $ul.prepend("<li><a href=\"" + ym + "\">" + ym_str + ")</a></li>");
+        return $ul.prepend("<li><a href=\"" + ym + "\">" + ym_str + "</a></li>");
       });
     }
   };
